@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">  <!-- 表示视图的子元素将在垂直方向上进行排列-->
+
+
+    <TextView
+        android:background="#FFB5B5"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="@string/logo"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:shadowDx="2.0"
+        android:shadowRadius="3.0"
+        android:shadowColor="#FFBFFF"
+        />
+
+
+    <Button
+        android:id="@+id/button_one"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="@string/key"
+        android:textSize="35sp"
+        android:onClick="fei"
+    />
+
+<!--    <Button-->
+<!--        android:id="@+id/button_two"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/key2"-->
+<!--        android:textSize="35sp"-->
+<!--        />-->
+
+
+</LinearLayout>
